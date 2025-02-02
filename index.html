@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="home">
+        <div class="nav">
+            <a href="#about"><button>About</button></a>
+            <a href="#contact"><button style="margin-left: 10px;">Contact</button></a>
+            <button onclick="goToSign()" style="margin-left: 10px;">Sign In</button>
+            <button onclick="goToRegister()" style="margin-left: 10px;">Register</button>
+        </div>
+        <div class="image1">
+            <h1>Unified Campus System</h1>
+            <p>Ucs</p>
+            
+        </div>
+        <div id="about" class="about" style="width: 100vw;padding: 10px; color: white; background-color: black;">
+            <h1 style="margin-bottom: 0px;">About</h1>
+            <p style="margin-top: 0px;">Subheading<p>
+            <div style="display: flex;flex-direction: row;gap: 30px;">
+                <div style="width: 200px;border: 2px solid black;border-radius: 5px;padding: 10px;">
+                    <h1>Title</h1>
+                    <p>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </p>
+                </div>
+                <div style="width: 200px;border: 2px solid black;border-radius: 5px;padding: 10px;">
+                    <h1>Title</h1>
+                    <p>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </p>
+                </div>
+                <div style="width: 200px;border: 2px solid black;border-radius: 5px;padding: 10px;">
+                    <h1>Title</h1>
+                    <p>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </p>
+                </div>
+                <div style="width: 200px;border: 2px solid black;border-radius: 5px;padding: 10px;">
+                    <h1>Title</h1>
+                    <p>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </p>
+                </div>
+                <div style="width: 200px;border: 2px solid black;border-radius: 5px;padding: 10px;">
+                    <h1>Title</h1>
+                    <p>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="Contact">
+            <h1>Contact Us</h1>
+            <div class="con1">
+                <label>Name</label>
+                <textarea placeholder="Value"></textarea>
+                <label>Surname</label>
+                <textarea placeholder="Value"></textarea>
+                <label>Email</label>
+                <textarea placeholder="Value"></textarea>
+                <label>Message</label>
+                <textarea placeholder="Value"></textarea>
+                <input style="margin: 10px; border:2px solid black; " type="submit">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function goToSign(){
+        window.location.href="signin.html";
+    }
+    function goToRegister(){
+        window.location.href="register.html"
+    }
+</script>
+
+
+
+</html>
